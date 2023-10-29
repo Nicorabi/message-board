@@ -1,0 +1,126 @@
+body {
+    background: #cccccc;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+#container {
+    border: 1px solid white;
+    border-radius: 8px;
+    max-width: 360px; 
+    margin: 80px auto;
+    text-align: center;
+    padding: 40px 5px;
+    background: hsl(251, 18%, 12%);
+}
+
+#input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#input {
+    width: 280px;
+    height: 100px;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: hsl(250, 16%, 30%);
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+}
+
+#input-container-1 {
+    display: flex;
+    margin-top: 9px;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+#input-1 {
+    width: 125px;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: hsl(250, 16%, 30%);
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+#input-2 {
+    width: 125px;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: hsl(250, 16%, 30%);
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    width: 290px;
+    margin: 10px auto;
+    padding: 18px;
+    border-radius: 8px;
+    background: hsl(201, 88%, 55%);
+    border: none;
+    outline: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+button:active {
+    background: hsl(203, 75%, 6%);
+}
+
+img {
+    width: 100px;
+}
+
+li {
+    width: 248px;
+    margin-top: 10px;
+    background: white;
+    font-size: 14px;
+    text-align: start;
+    color: black;
+    list-style-type: none;
+    word-wrap: break-word;
+    padding: 15px;
+}
+
+#card {
+    width: 270px;
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
+    #container {
+        max-width: 360px;
+        margin: 60px auto;
+    }
+
+    li {
+        width: 188px;
+    }
+    
+    #card {
+        width: 220px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
