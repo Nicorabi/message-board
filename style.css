@@ -6,8 +6,6 @@ body {
 }
 
 #container {
-    border: 1px solid white;
-    border-radius: 8px;
     max-width: 360px; 
     margin: 80px auto;
     text-align: center;
